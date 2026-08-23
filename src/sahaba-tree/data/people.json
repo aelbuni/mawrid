@@ -1268,9 +1268,9 @@
         "note": "أصح كتب الحديث عند أهل السنة. الترقيم المعتمد هنا يتبع ترقيم فتح الباري الشائع."
       }
     ],
-    "genKind": "approximate",
-    "genNote": "Placed by clan/tribe attribution: the sources cited below name their clan, but not the exact family position within it.",
-    "genNoteAr": "وُضع حسب انتساب العائلة/القبيلة: تذكر المصادر أدناه القبيلة، لا الموضع الدقيق داخلها.",
+    "genKind": "sourced",
+    "genNote": "The full lineage shown is sourced to the works listed below; no nasab is recorded beyond his father Rabah. His tie to Banu Jumah is wala' (patronage through prior enslavement there), not blood descent.",
+    "genNoteAr": "النسب الكامل المعروض مسند إلى المصادر المذكورة أدناه، ولا يُعرف نسبه فيما وراء أبيه رباح. وصلته ببني جُمَح هي ولاءٌ لا نسب، لأنه كان مسترقًّا عندهم.",
     "death": 20,
     "node": 87
   },
@@ -1365,9 +1365,9 @@
         "note": "أصح كتب الحديث عند أهل السنة. الترقيم المعتمد هنا يتبع ترقيم فتح الباري الشائع."
       }
     ],
-    "genKind": "approximate",
-    "genNote": "Placed by clan/tribe attribution: the sources cited below name their clan, but not the exact family position within it.",
-    "genNoteAr": "وُضع حسب انتساب العائلة/القبيلة: تذكر المصادر أدناه القبيلة، لا الموضع الدقيق داخلها.",
+    "genKind": "sourced",
+    "genNote": "The full lineage shown is sourced to the works listed below. Madhhij is a Qahtani (Yemeni) tribe unrelated by blood to Adnan's line. His tie to Banu Makhzum is a hilf (alliance) his father Yasir contracted with Abu Hudhayfa ibn al-Mughira, not blood descent.",
+    "genNoteAr": "النسب الكامل المعروض مسند إلى المصادر المذكورة أدناه. ومَذْحِج قبيلة قحطانية (يمانية) لا تمتّ بنسبٍ إلى عدنان. وصلته ببني مخزوم حِلفٌ عاقده أبوه ياسر مع أبي حذيفة بن المغيرة، لا نسب.",
     "death": 37,
     "node": 64
   },
@@ -1795,9 +1795,9 @@
         "note": "أصح كتب الحديث عند أهل السنة. الترقيم المعتمد هنا يتبع ترقيم فتح الباري الشائع."
       }
     ],
-    "genKind": "approximate",
-    "genNote": "Placed by clan/tribe attribution: the sources cited below name their clan, but not the exact family position within it.",
-    "genNoteAr": "وُضع حسب انتساب العائلة/القبيلة: تذكر المصادر أدناه القبيلة، لا الموضع الدقيق داخلها.",
+    "genKind": "extended",
+    "genNote": "Sourced to the works below as far as Hudhayl; the lineage continues beyond that point via Ibn Hazm's Jamharat Ansab al-Arab. His tie to Banu Zuhra is a hilf (alliance) his father Mas'ud contracted with 'Abd ibn al-Harith of Zuhra, not blood descent.",
+    "genNoteAr": "مسندة إلى المصادر أدناه حتى هُذيل؛ ويتصل النسب بعد ذلك بجمهرة أنساب العرب لابن حزم. وصلته ببني زُهرة حِلفٌ عاقده أبوه مسعود مع عبد بن الحارث الزُّهري، لا نسب.",
     "death": 32,
     "node": 20
   },
@@ -1876,9 +1876,9 @@
         "note": "أصح كتب الحديث عند أهل السنة. الترقيم المعتمد هنا يتبع ترقيم فتح الباري الشائع."
       }
     ],
-    "genKind": "approximate",
-    "genNote": "Placed by clan/tribe attribution: the sources cited below name their clan, but not the exact family position within it.",
-    "genNoteAr": "وُضع حسب انتساب العائلة/القبيلة: تذكر المصادر أدناه القبيلة، لا الموضع الدقيق داخلها.",
+    "genKind": "extended",
+    "genNote": "Sourced to the works below as far as Jandala; the lineage continues beyond that point via Ibn Hazm's Jamharat Ansab al-Arab. His tie to Banu Zuhra is wala' (his manumitter was herself allied to a man of Zuhra), not blood descent.",
+    "genNoteAr": "مسندة إلى المصادر أدناه حتى جندلة؛ ويتصل النسب بعد ذلك بجمهرة أنساب العرب لابن حزم. وصلته ببني زُهرة ولاءٌ لا نسب، فمُعتِقته كانت حليفة رجلٍ من زُهرة.",
     "death": 37,
     "node": 127
   },
@@ -4224,8 +4224,8 @@
     "ar": "عامر بن ربيعة العنزي حليف بني عدي",
     "lat": "Amir ibn Rabia al-Anazi",
     "tribe": "Anz",
-    "clan": "Banu Adi",
-    "groupAr": "بنو عَدِيّ",
+    "clan": "halif of Banu Adi",
+    "groupAr": "حليف بني عَدِيّ",
     "tribeAr": "عنز",
     "status": "halif",
     "gender": "m",
