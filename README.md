@@ -57,11 +57,13 @@ npm run dev
 
 لكل صحابي حقل `genKind` يبيّن مدى توثيق نسبه:
 
-- **موثَّق** — `Sourced` (شخصان) — النسب المعروض بكامله موثَّق فردًا فردًا إلى المصنفات المذكورة أدناه.
-- **ممتد** — `Extended` (18 شخصًا) — موثَّق إلى جدٍّ مُسمّى، ثم يستكمل عبر العمود الفقري النسبي المعتمد في هذا التطبيق (المستمد أساسًا من «جمهرة أنساب العرب» لابن حزم).
-- **تقريبي** — `Approximate` (29 شخصًا) — موضوع بحسب نسبته إلى بطنه أو قبيلته: إذ تُسمّي المصادر بطنه دون أن تحدد موضعه الدقيق فيه.
+- **موثَّق** — `Sourced` (4 أشخاص) — النسب المعروض بكامله موثَّق فردًا فردًا إلى المصنفات المذكورة أدناه.
+- **ممتد** — `Extended` (20 شخصًا) — موثَّق إلى جدٍّ مُسمّى، ثم يستكمل عبر العمود الفقري النسبي المعتمد في هذا التطبيق (المستمد أساسًا من «جمهرة أنساب العرب» لابن حزم).
+- **تقريبي** — `Approximate` (25 شخصًا) — موضوع بحسب نسبته إلى بطنه أو قبيلته: إذ تُسمّي المصادر بطنه دون أن تحدد موضعه الدقيق فيه.
 
-وهذا «العمود الفقري» ليس ملفًا مستقلًا، بل هو بنية مؤشّر الأب (`p`) المضمَّنة مباشرة في مدخلات `nodes.json` البالغة 234 مدخلًا، والمستمدة أساسًا من «جمهرة أنساب العرب» لابن حزم (انظر ثبت المصادر أدناه).
+وهذا «العمود الفقري» ليس ملفًا مستقلًا، بل هو بنية مؤشّر الأب (`p`) المضمَّنة مباشرة في مدخلات `nodes.json` البالغة 260 مدخلًا، والمستمدة أساسًا من «جمهرة أنساب العرب» لابن حزم (انظر ثبت المصادر أدناه).
+
+وهناك خلطٌ آخر ذو صلة: فقبيلة الصحابي وصلته بالولاء أو الحلف مع بطنٍ من قريش لا تعني نسبًا بالدم، وكانت نسخٌ سابقة من هذه البيانات تخلط بينهما — فتُثبِت مثلًا ولاء بلال بن رباح لبني جُمَح كأنه نسبٌ حقيقي إليهم. وقد صُحِّح موضع كل صحابيٍّ مولى أو حليف في الشجرة بحسب نسبه الثابت فعلًا (أو عدم ثبوته)، مع بقاء صلة الولاء أو الحلف في حقلي `clan`/`tribe` ونص البطاقة، لا في عمود النسب (`p`).
 
 #### الاختلافات العلمية الموثَّقة
 
@@ -170,11 +172,13 @@ npm run dev
 
 Every companion has a `genKind` field describing how well-sourced their lineage is:
 
-- **Sourced** (2 people) — the full lineage shown is individually sourced to the works below.
-- **Extended** (18 people) — sourced back to a named ancestor, then continues via this app's genealogical backbone (drawn primarily from Ibn Hazm's *Jamharat Ansab al-Arab*).
-- **Approximate** (29 people) — placed by clan/tribe attribution: the sources name their clan, but not their exact position within it.
+- **Sourced** (4 people) — the full lineage shown is individually sourced to the works below.
+- **Extended** (20 people) — sourced back to a named ancestor, then continues via this app's genealogical backbone (drawn primarily from Ibn Hazm's *Jamharat Ansab al-Arab*).
+- **Approximate** (25 people) — placed by clan/tribe attribution: the sources name their clan, but not their exact position within it.
 
-That "backbone" isn't a separate file — it's the parent-pointer (`p`) structure baked directly into all 234 entries of `nodes.json`, primarily sourced from Ibn Hazm's *Jamharat Ansab al-Arab* (see Bibliography below).
+That "backbone" isn't a separate file — it's the parent-pointer (`p`) structure baked directly into all 260 entries of `nodes.json`, primarily sourced from Ibn Hazm's *Jamharat Ansab al-Arab* (see Bibliography below).
+
+A separate, related pitfall: a companion's tribe and their *hilf* (alliance) or *wala'* (patronage/manumission) tie to a Quraysh clan are not the same thing as blood descent, and earlier versions of this dataset conflated them — wiring, for example, Bilal ibn Rabah's *wala'* to Banu Jumah as if he were literally descended from them. Every mawla/halif companion's tree position now reflects their own attested nasab (or its absence), with the clan/hilf relationship kept in the `clan`/`tribe` fields and card text rather than the `p` backbone.
 
 #### Documented Scholarly Disputes
 
